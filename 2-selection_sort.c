@@ -3,8 +3,8 @@ void swap(int *one, int *two);
 /**
  * selection_sort - sorting algorithm
  * @array: the arrya to sort
- * @size the size of the array
- */ 
+ * @size: the size of the array
+ */
 void selection_sort(int *array, size_t size)
 {
 	size_t i = 0;
