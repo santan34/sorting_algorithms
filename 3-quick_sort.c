@@ -63,8 +63,6 @@ void quick_sort(int *array, size_t size)
 	int low = 0;
 	size_t high = size - 1;
 
-	if (size == 2)
-		return;
 	quicky(array, low, high, size);
 }
 /**
